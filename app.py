@@ -2,9 +2,9 @@ import streamlit as st
 from pdf_utils import extract_text_from_pdf, chunk_text
 from embedding_utils import create_embeddings, store_embeddings, get_answer
 
-st.set_page_config(page_title="PDF Chatbot ANN", layout="wide")
+st.set_page_config(page_title="PDF Chatbot", layout="wide")
 
-st.title("🤖 PDF Chatbot using ANN")
+st.title("🤖 PDF Chatbot")
 st.write("Ask questions strictly from the uploaded PDF.")
 
 # Initialize session state
